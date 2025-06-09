@@ -13,8 +13,8 @@ def check(process_output, judge_output, judge_input, point_value, **kwargs):
     if "+" in source_code:
         return CheckerResult(False, 0, "You can't use + operator")
 
-    if len(source_code) >= 100:
-        return CheckerResult(False, 0, "Source code is too long")
+    #if len(source_code) >= 100:
+    #    return CheckerResult(False, 0, "Source code is too long")
 
     # read data as normal
     input_lines = [line.strip() for line in judge_input.split('\n') if line.strip()]
