@@ -74,6 +74,16 @@ runtime:
   pike: /usr/bin/pike
   swipl: /usr/bin/swipl
   a68g: /usr/bin/a68g
+  2sable: /usr/bin/2sable
+  3var: /usr/bin/3var
+  abc: /usr/bin/abc
+  adjust: /usr/bin/adjust
+  alice: /usr/bin/alice
+  alphabeta: /usr/bin/alphabeta
+  apl: /usr/bin/apl
+  arcyou: /usr/bin/arcyou
+  arithmetic: /usr/bin/arithmetic
+  arnoldc: /usr/bin/arnoldc
 # Custom V8 build to facilitate online judging: https://github.com/DMOJ/v8dmoj
   v8dmoj: /home/judge/judge/executors/v8dmoj
   php: /usr/bin/php

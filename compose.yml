@@ -64,7 +64,10 @@ services:
         condition: service_healthy
 
   judge:
-    build: ./judge
+    build:
+      context: ./judge
+      args:
+        CACHE_BUST: "temp156"
     restart: always
     volumes:
       - ./problems:/problems
