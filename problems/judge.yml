@@ -84,6 +84,12 @@ runtime:
   arcyou: /usr/bin/arcyou
   arithmetic: /usr/bin/arithmetic
   arnoldc: /usr/bin/arnoldc
+  asciidots: /usr/bin/asciidots
+  aubergine: /usr/bin/aubergine
+  autovim: /usr/bin/autovim
+  axo: /usr/bin/axopp
+  backhand: /usr/bin/backhand
+  ballerina: /usr/bin/ballerina
 # Custom V8 build to facilitate online judging: https://github.com/DMOJ/v8dmoj
   v8dmoj: /home/judge/judge/executors/v8dmoj
   php: /usr/bin/php
